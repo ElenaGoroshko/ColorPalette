@@ -96,15 +96,24 @@
                                 <rect key="frame" x="128" y="134" width="210" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="hSliderRed:" destination="BYZ-38-t0r" eventType="valueChanged" id="tIU-a9-qAn"/>
+                                </connections>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="255" translatesAutoresizingMaskIntoConstraints="NO" id="Nb1-vp-jr3">
                                 <rect key="frame" x="128" y="191" width="210" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="hSliderGreen:" destination="BYZ-38-t0r" eventType="valueChanged" id="a6W-WC-69J"/>
+                                </connections>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="255" translatesAutoresizingMaskIntoConstraints="NO" id="6R8-Py-vNh">
                                 <rect key="frame" x="128" y="246" width="210" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="hSliderBlue:" destination="BYZ-38-t0r" eventType="valueChanged" id="T8Z-iu-Pra"/>
+                                </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mixed color:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CBR-8p-MwW">
                                 <rect key="frame" x="36" y="297" width="106" height="21"/>
@@ -136,6 +145,7 @@
                         <outlet property="labelBlue" destination="TSh-2a-ZQq" id="LvI-ek-NNF"/>
                         <outlet property="labelGreen" destination="qih-pC-7zg" id="BSZ-rO-L3Z"/>
                         <outlet property="labelRed" destination="kM2-cr-FiY" id="qBd-Rh-6HJ"/>
+                        <outlet property="viewColor" destination="5C7-uz-9py" id="Uli-Sc-0qZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
