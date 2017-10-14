@@ -14,6 +14,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var labelGreen: UILabel!
     @IBOutlet weak var labelBlue: UILabel!
     
+    @IBOutlet weak var hSliderRed: UISlider!
+    @IBOutlet weak var hSliderGreen: UISlider!
+    @IBOutlet weak var hSliderBlue: UISlider!
     
 
     override func viewDidLoad() {
